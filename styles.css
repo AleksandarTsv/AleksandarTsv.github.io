@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('Смешарикишрифт.ttf') format('truetype');
+}
+
+body {
+  background-color: #f7c9ef; /* soft pink */
+  font-family: 'MyCustomFont', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #ff2d2d;
+  font-size: 1.8rem;
+  font-weight: normal;
+  max-width: 800px;
+  margin: 30px auto;
+  line-height: 1.4;
+}
+
+h3 {
+    color: #ff2d2d;
+  font-size: 1.7rem;
+  font-weight: normal;
+  max-width: 800px;
+  margin: 30px auto;
+  line-height: 1.4;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto 50px;
+}
+
+/* Center the last image in the bottom middle cell */
+.gallery img.centered {
+  grid-column: 2 / 3;
+  justify-self: center;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 4px solid white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
