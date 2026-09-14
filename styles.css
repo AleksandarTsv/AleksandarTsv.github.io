@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #f7c9ef; /* soft pink */
+  background-color: #e6e6fa; /* soft pink */
   font-family: 'MyCustomFont', sans-serif;
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-  color: #ff2d2d;
+  color: #891446;
   font-size: 1.8rem;
   font-weight: normal;
   max-width: 800px;
@@ -21,7 +21,7 @@ h1 {
 }
 
 h3 {
-    color: #ff2d2d;
+    color: #891446;
   font-size: 1.7rem;
   font-weight: normal;
   max-width: 800px;

@@ -6,9 +6,9 @@
 body {
   font-family: 'MyCustomFont', sans-serif;
   font-size: 25px;
-  background-color: #ffd6f5;
+  background-color: #e6e6fa;
   text-align: center;
-  color: #ff3b5c;
+  color: #891446;
   margin: 0;
   padding: 0;
 }
@@ -17,12 +17,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 300px; /* space between images */
+  gap: 300px;
   margin-top: 10px;
 }
 
 .side-img {
-  width: 300px; /* adjust to your images */
+  width: 300px; 
   height: auto;
 }
 
@@ -66,7 +66,7 @@ h1 {
 
 .time div {
   background-color: #b3c6ff;
-  color: #ff3b5c;
+  color: #891446;
   padding: 10px 20px;
   border-radius: 15px;
   box-shadow: 0 3px 8px rgba(0,0,0,0.1);
@@ -96,7 +96,7 @@ h2 {
 
 button {
   background-color: #fff;
-  color: #ff3b5c;
+  color: #891446;
   font-family: 'MyCustomFont', sans-serif;
   font-size: 1.8em;
   border: none;
